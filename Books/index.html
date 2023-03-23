@@ -1,0 +1,22 @@
+---
+layout: default
+title: Books
+---
+
+<section class="books">
+  <h1>Books</h1>
+  <div class="book-grid">
+    {% for book in site.data.books %}
+      <div class="book-item">
+        <a href="{{ book.link }}" target="_blank" rel="noopener noreferrer">
+          <img class="book-cover" src="{{ book.img }}" alt="{{ book.name }} by {{ book.author }}" />
+        </a>
+        <h2 class="book-title">{{ book.name }}</h2>
+        <p class="book-author">by {{ book.author }}</p>
+        <!-- <p class="book-description">{{ book.description | truncate: 90 }}</p> -->
+        <br>
+        <a class="learn-more" href="{{ book.link }}" target="_blank">Learn More</a>
+      </div>
+    {% endfor %}
+  </div>
+</section>

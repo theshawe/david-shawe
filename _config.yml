@@ -16,14 +16,20 @@
 title: David Shawe
 email: david@invisiblebuilding.com
 description: David Shawe is a designer from Northern Ireland with startup energy
-baseurl: "/david-shawe" # the subpath of your site, e.g. /blog
+# baseurl: "/david-shawe" # the subpath of your site, e.g. /blog
 url: "https://theshawe.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: theshawe
 github_username:  theshawe
 
+
+
+
 # Build settings
 markdown: kramdown
-theme: minima
+
+permalink: /blog/:title.html
+
+
 plugins:
   - jekyll-feed
 

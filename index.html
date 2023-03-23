@@ -1,9 +1,32 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
 ---
+<header>
+  <h1>David Shawe</h1>
+</header>
 
-<h1>David Shawe</h1>
+<section class="projects">
+  <h2>Projects and work</h2>
+  <div class="carousel" data-flickity='{ "imagesLoaded": true, "autoPlay": true, "percentPosition": true }' >
+    {% for post in site.posts %}
+      <div class="carousel-cell">
+        <a href="{{ post.url }}">
+          <img src="{{ post.image }}" width="222" alt="{{ post.title }}" />
+        </a>
+        <a href="{{ post.url }}" class="project-title">{{ post.title }}</a>
+        <!-- <a href="{{ post.url }}" class="learn-more">Learn more</a> -->
+      </div>
+    {% endfor %}
+  </div>
+</section>
 
+<section class="thoughts">
+  <h2>Latest thoughts</h2>
+  {% for post in site.posts %}
+    <article>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt }}</p>
+      <a href="{{ post.url }}" class="learn-more">Learn more</a>
+    </article>
+  {% endfor %}
+</section>

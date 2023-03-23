@@ -1,0 +1,23 @@
+- name: The Almanack Of Naval Ravikant
+  author: Naval Ravikant
+  description: A collection of wisdom and insights from entrepreneur and investor Naval Ravikant, this book covers topics such as wealth creation, happiness, and personal growth. Distilled from interviews, podcasts, and social media, it provides a concise and valuable guide to leading a fulfilled and successful life.
+  link: https://www.amazon.co.uk/Almanack-Naval-Ravikant-Wealth-Happiness/dp/1544514212
+  img: https://m.media-amazon.com/images/I/310zQ0UbRdL._SY291_BO1,204,203,200_QL40_ML2_.jpg
+
+- name: Life 3.0
+  author: Max Tegmark
+  description: Written by MIT physicist Max Tegmark, Life 3.0 explores the potential future of artificial intelligence and its implications on society. The book discusses the ethical and philosophical questions surrounding the development of superintelligent AI, as well as its potential impact on the economy, jobs, and human existence.
+  link: https://www.amazon.co.uk/Life-3-0-Being-Artificial-Intelligence/dp/0141981806
+  img: https://m.media-amazon.com/images/I/51I6gja0RzL._SX323_BO1,204,203,200_.jpg
+
+- name: Get Together
+  author: Bailey Richardson
+  description: In "Get Together," authors Bailey Richardson, Kevin Huynh, and Kai Elmer Sotto share their experiences and insights on community building. The book provides practical advice, case studies, and actionable steps to help readers create, grow, and maintain thriving communities around their passions or projects.
+  link: https://www.amazon.co.uk/Get-Together-Build-Community-People/dp/1732265194
+  img: https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/41D-vI+wA5L.jpg
+
+- name: Working in Public
+  author: Nadia Eghbal
+  description: Working in Public examines the unique world of open source software development and its growing influence on the modern tech landscape. Author Nadia Eghbal dives into the motivations, challenges, and rewards faced by developers who contribute to open source projects while providing insights on how to foster a healthy, sustainable ecosystem for open source collaboration.
+  link: https://www.amazon.co.uk/Working-Public-Making-Maintenance-Software/dp/0578675862
+  img: https://m.media-amazon.com/images/I/41tFSGpHQOL._SX336_BO1,204,203,200_.jpg
