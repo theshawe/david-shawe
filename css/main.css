@@ -93,6 +93,8 @@ h1 {
   position: relative;
   overflow: hidden;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  margin-bottom: 0px;
+  height: 1.25em;
 }
 
 @keyframes glow {
@@ -120,11 +122,7 @@ font-weight: 400;
 font-style: normal;
 }
 
-.post-note h2 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-  text-shadow: -2px 0px 5px #bc0bbeb8;
-}
+
 
 .post-grid p {
   font-family:  futura-pt, sans-serif;
@@ -134,12 +132,7 @@ color: #000;
 padding-bottom: 15px;
 }
 
-.post-grid a.learn-more {
-  color: #0c0b03;
-  letter-spacing: 1px;
-  background: #ff4a95;
-  padding: 5px;
-}
+
 
 .post-item {
   width: calc(33% - 2rem);
@@ -177,7 +170,8 @@ padding-bottom: 15px;
     }
     
     .post-note h2 {
-    font-size: 1.5rem;
+      font-size: 2em;
+      text-shadow: -2px 0px 5px #beb20bb8;
     margin-bottom: 0.5rem;
     font-family: "bc-vajgar", futura-pt, sans-serif;
     }
@@ -373,18 +367,21 @@ ul.skills-list {
 
 
   .learn-more {
+    padding: 0px 24px;
     display: inline-block;
-    padding: 5px 10px;
     background-color: #000;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     font-size: 14px;
-    margin-top: 5px;
-    position: absolute;
-    left: 10px;
-    bottom: 10px;
-    width: 190px;
+    width: auto;
+    font-family: futura-pt;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 4px !important;
+    line-height: 3em;
+    text-align: center;
+    width: 88%;
   }
 
   #grunge-background {
